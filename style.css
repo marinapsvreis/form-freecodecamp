@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.9),
+        rgba(136, 136, 206, 0.9)
+      ),
+      url(https://thumbs.dreamstime.com/b/fundo-digital-grandes-dados-conceito-de-hacker-matriz-abstrata-muitos-n%C3%BAmeros-gerados-pelo-computador-ilustra%C3%A7%C3%A3o-vetorial-vetor-194678486.jpg);
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    text-shadow: 2px 2px 10px black;
+}
+
+#title{
+    font-size: 3em;
+}
+
+#subtitle{
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+form{
+    color: white;
+    background:rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+}
+
+@media (min-width: 1000px){
+    form{
+        margin: 0 70px 70px;
+    }
+}
+
+#form-group{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+label, p{
+    display: flex;
+    padding: 15px 0;
+    font-size: 1.3em;
+    align-items: center;
+}
+
+#name, #email, #number, select{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+#name{
+    margin-left: 5px;
+
+}
+
+#number{
+    margin-left: 6px;
+
+}
+
+#email{
+    margin-left: 10px; 
+}
+
+.radio, .checkbox{
+    margin-right: 10px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.label-radio, .label-checkbox{
+    padding: 0;
+    font-size: 1.1em;
+}
+
+form div{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background: #50048f;
+    padding: 20px 50px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: #890f9e;
+}
